@@ -1,0 +1,54 @@
+/* Global font color */
+* {
+    color: #dddddd;
+}
+
+/* Gray backgrounds */
+body, .section::before, .worm-spawn {
+    background-color: #222222;
+}
+
+/* Light gray border, dark gray background */
+button, .modal-box {
+    border: 1px solid #666666;
+    background-color: #232323;
+}
+
+/* Button colors */
+button:hover {
+    background-color: #343434;
+}
+
+button:disabled {
+    background-color: #222222;
+}
+
+/* Line break colors */
+.line-break, .counter-break {
+    border: 0.5px solid #666666;
+}
+
+/* Links */
+a, .link {
+    color: #0099ff;
+}
+
+a:hover, .link:hover {
+    color: #00ccff;
+}
+
+/* Message history */
+#message-history {
+    border-bottom: 1px solid #666666;
+}
+
+/* Section headers */
+.section {
+    border: 1px solid #666666;
+}
+
+/* Tooltips */
+.tooltip, .bait-tooltip, .tackle-tooltip {
+    background: #222222;
+    border: 1px solid #666666;
+}
